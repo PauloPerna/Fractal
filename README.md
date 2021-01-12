@@ -5,7 +5,7 @@ Geramos alguns fractais bonitos com base nos conjuntos Mandelbrot e Julia.
 O [conjunto de Mandelbrot](https://en.wikipedia.org/wiki/Mandelbrot_set) são os pontos (c) no plano complexo para os quais a sequência
 
 <img src="https://render.githubusercontent.com/render/math?math=z_{0} = 0">
-<img src="https://render.githubusercontent.com/render/math?math=z_{n+1} = z_n^2 + c">
+<img src="https://render.githubusercontent.com/render/math?math=z_{n%2B1} = z_n^2 %2B c">
 
 é limitada.
 
@@ -16,7 +16,7 @@ O [conjunto de Mandelbrot](https://en.wikipedia.org/wiki/Mandelbrot_set) são os
 O [conjunto de Julia](https://en.wikipedia.org/wiki/Julia_set) são os pontos (x) no plano complexo para os quais a sequência
 
 <img src="https://render.githubusercontent.com/render/math?math=z_{0} = x">
-<img src="https://render.githubusercontent.com/render/math?math=z_{n+1} = z_n^2 + c">
+<img src="https://render.githubusercontent.com/render/math?math=z_{n%2B1} = z_n^2 %2B c">
 
 é limitada para um determinado número c. Repare que cada valor de c irá gerar um conjunto diferente.
 
