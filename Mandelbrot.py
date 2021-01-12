@@ -30,12 +30,16 @@ def geramandel(centro = [-0.77568377,0.13646737],zoom = 1, tam_img = 1000, maxit
     for x in range(imgz.size[0]):
         print(str(x))
         for y in range(imgz.size[1]):
-            pixelsz[x,y] = mandelbrot(complex((2*x)/(tam_img*zoom) + centro[0] - 1/zoom, (2*y)/(tam_img*zoom) + centro[1] - 1/zoom))
+            pixelsz[x,y] = mandelbrot(complex((2*x)/(tam_img*zoom) + centro[0] - 1/zoom, (2*y)/(tam_img*zoom) + centro[1] - 1/zoom),
+                                      maxit = maxit)
     
     imgz.save(fp = path)
     return imgz
     
-geramandel()
+geramandel().show()
+
+
+
 
 # Pontos interessantes para utilizar de centro:
 # pontos:

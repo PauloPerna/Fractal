@@ -22,7 +22,7 @@ def juliaset(z,c,multibrot,maxit = 255):
             return cor(i,maxit)
     return (255,255,255)
     
-def gerajulia(centro = [0,0], zoom = 1, tam_img = 1000, maxit = 255, multibrot = 2, c = complex(-0.77568377,0.13646737), path = ".\\Imgs\\last_brot.png"):
+def gerajulia(centro = [0,0], zoom = 1, tam_img = 1000, maxit = 255, multibrot = 2, c = complex(-0.77568377,0.13646737), path = ".\\Imgs\\last_julia.png"):
     imgz = Image.new('RGB', (tam_img,tam_img),)
     pixelsz = imgz.load()
     for x in range(imgz.size[0]):
