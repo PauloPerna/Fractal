@@ -21,7 +21,7 @@ def mandelbrot(c,maxit = 255, multibrot = 2):
         z = z**multibrot + c
         if abs(z) > 2:
             return cor(i,maxit)
-    return (255,255,255)
+    return cor(i,maxit)
 
 def geramandel(centro = [-0.77568377,0.13646737],zoom = 1, tam_img = 1000, maxit = 255, multibrot = 2, path = ".\\Imgs\\last_brot.png"):
     imgz = Image.new('RGB', (tam_img,tam_img),)
@@ -48,6 +48,9 @@ geramandel().show()
 #       3: [-0.03147422684987622, -0.7593917288808281]
 #       4: [-0.04555088774106712, 0.6924804168997948]
 #       5: [0.2554329502825137, -0.5669478385347823]
+#       6: [-0.3792789009997586, 0.5972242203645058]
+#       7: [-0.6671879804699886, 0.3218697973640111]
+#       8: [-0.7492381827128279, 0.032945091250413686]
 
 
 

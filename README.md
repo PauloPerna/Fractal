@@ -21,3 +21,23 @@ O [conjunto de Julia](https://en.wikipedia.org/wiki/Julia_set) são os pontos (x
 é limitada para um determinado número c. Repare que cada valor de c irá gerar um conjunto diferente.
 
 O conjunto é desenhado da mesma forma que o conjunto de Mandelbrot.
+
+## Comparação de tempo de execução entre Julia e Python
+
+Seguem os tempos de execução para gerar a mesma imagem nas duas diferentes linguagens (no meu computador):
+
+
+Mandelbrot: Centro em -0.6671879804699886 + 0.3218697973640111i, zoom = 10^5, tam_img = 1000, maxit = 1000
+
+Julia: 33638 milliseconds
+
+Python: 326932 miliseconds
+
+
+Mandelbrot: Centro em -0.7492381827128279 + 0.032945091250413686im, zoom = 10^7, tam_img = 1000, maxit = 4000
+
+Julia: 125052 milliseconds, 127247 milliseconds
+
+Python: 1326391 milliseconds
+
+
